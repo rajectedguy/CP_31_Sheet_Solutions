@@ -35,7 +35,7 @@ public class G2SubsequenceAdditionHardVersion {
         }
         out.flush();
     }
-    static class Scanner {
+    private static class Scanner {
         BufferedReader br;
         StringTokenizer st;
         Scanner(InputStream is) {
